@@ -1,0 +1,34 @@
+body *{
+    max-width: 100vw;
+
+}
+.title-section{
+    height: 75vh;
+}
+.main-img{
+    z-index: -1;
+    width: 100%;
+    max-width: 100vw;
+    min-height: 75%;
+    max-height: 100%;
+    object-fit: cover;
+}
+.logo-main{
+    z-index: 1;
+}
+.characters-section img{
+    height: 350px;
+}
+.characters-section figure{
+    width: 350px;
+}
+.description-section{
+    scroll-margin-top: 20rem;
+    display: none;
+}
+#characters-description{
+    scroll-margin-top: 10rem;
+}
+.title-section-logo {
+    min-width: 234px;
+}
