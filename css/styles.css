@@ -24,7 +24,6 @@ body *{
 }
 .description-section{
     scroll-margin-top: 20rem;
-    display: none;
 }
 #characters-description{
     scroll-margin-top: 10rem;
