@@ -5,18 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A Tale Of Divas</title>
+    <link rel="icon" href="assets/icone-site.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link href="css/styles.css" rel="stylesheet">
 </head>
 <body>
     <header>
-        <div class=" d-flex flex-wrap justify-content-around position-fixed bg-white w-100 py-3 shadow-lg">
+        <div class=" d-flex flex-wrap justify-content-around position-fixed bg-beige w-100 py-3 shadow-lg">
             <a href="/" class="d-flex align-items-center text-decoration-none">
-                <img src="assets/logo-text-mask.png" class="img-fluid w-50 mx-5" alt="">
+                <img src="assets/logo-noir-contours.png" class="img-fluid w-50 mx-5" alt="">
             </a>
             <ul class="nav nav-pills align-items-center ">
                 <li class="nav-item">
-                    <a href="#" class="nav-link fs-5 active " aria-current="page">Home</a>
+                    <a href="#" class="nav-link fs-5 text-black " aria-current="page">Home</a>
                 </li>
                 <li class="nav-item">
                     <a href="#title-description" class="nav-link fs-5 text-dark">Description</a>
@@ -32,14 +33,14 @@
                 </li>
             </ul>
         </div>
-    </header>
-    <main class="">
         <section class="title-section d-flex flex-wrap justify-content-center align-items-center">
             <img src="assets/illustration_temple_final-low.jpg" class="main-img  position-fixed top-0 w-100" alt="">
-            <img src="assets/logo-pink-block.png" class="title-section-logo img-fluid w-25" alt="">
+            <img src="assets/logo-blanc-contours.png" class="title-section-logo w-auto" alt="">
         </section>
-        <section class="description-section bg-white w-100 p-0 m-0"  id="title-description" >
-            <div class="text-center bg-white row justify-content-center pt-0 m-0 " >
+    </header>
+    <main class="bg-white bg-body">
+        <section class="description-section  w-100 py-5 m-0"  id="title-description" >
+            <div class="text-center  row justify-content-center pt-0 m-0 " >
                 <h2 class="pt-4 pb-3">Now we've come full circle</h2>
                 <p class="col-10 col-md-6">
                     A smokescreen covered their continuous blinks towards the outskirts of the great kingdom, until the cat
@@ -51,33 +52,13 @@
                 </p>
             </div>
         </section>
-        <section class="characters-section bg-white" id="characters-description">
-            <div class="d-flex flex-wrap justify-content-center pt-5 m-0">
+        <section class="characters-section  py-5" id="characters-description">
+            <div class="d-flex flex-wrap justify-content-center py-5 m-0">
                 <hr>
                 <h2 class="text-center w-100 pt-4 pb-4">Choose Your Hero</h2>
 
-                <figure class="m-3 shadow">
-                    <img class="w-100 bg-dark shadow" src="#" alt="">
-                    <figcaption class="text-center p-4">
-                        <h3 class="pb-2">Beaver-Lee</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, ipsa ducimus quod distinctio commodi,
-                            adipisci quam, quaerat consequatur a praesentium incidunt maxime. Delectus quam nobis iusto saepe
-                            voluptas! Debitis, rem!
-                        </p>
-                    </figcaption>
-                </figure>
-                <figure class="m-3 shadow">
-                    <img class="w-100 bg-dark shadow" src="#" alt="">
-                    <figcaption class="text-center p-4">
-                        <h3 class="pb-2">Venachia</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, ipsa ducimus quod distinctio commodi,
-                            adipisci quam, quaerat consequatur a praesentium incidunt maxime. Delectus quam nobis iusto saepe
-                            voluptas! Debitis, rem!
-                        </p>
-                    </figcaption>
-                </figure>
-                <figure class="m-3 shadow">
-                    <img class="w-100 bg-dark shadow" src="#" alt="">
+                <figure class="m-3 shadow bg-white">
+                    <img class="w-100 bg-dark shadow" src="assets/characters/cadre-willbread.jpg" alt="">
                     <figcaption class="text-center p-4">
                         <h3 class="pb-2">Willbread</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, ipsa ducimus quod distinctio commodi,
@@ -86,15 +67,35 @@
                         </p>
                     </figcaption>
                 </figure>
+                <figure class="m-3 shadow bg-white">
+                    <img class="w-100 bg-dark shadow" src="assets/characters/cadre-venachia.jpg" alt="">
+                    <figcaption class="text-center p-4">
+                        <h3 class="pb-2">Venachia</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, ipsa ducimus quod distinctio commodi,
+                            adipisci quam, quaerat consequatur a praesentium incidunt maxime. Delectus quam nobis iusto saepe
+                            voluptas! Debitis, rem!
+                        </p>
+                    </figcaption>
+                </figure>
+                <figure class="m-3 shadow bg-white">
+                    <img class="w-100 bg-dark shadow" src="assets/characters/cadre-beaverlee.jpg" alt="">
+                    <figcaption class="text-center p-4">
+                        <h3 class="pb-2">Beaver-Lee</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, ipsa ducimus quod distinctio commodi,
+                            adipisci quam, quaerat consequatur a praesentium incidunt maxime. Delectus quam nobis iusto saepe
+                            voluptas! Debitis, rem!
+                        </p>
+                    </figcaption>
+                </figure>
             </div>
         </section>
-        <section class="images-section bg-white">
+        <section class="images-section ">
 
         </section>
-        <section class="team-section bg-white">
+        <section class="team-section ">
 
         </section>
-        <section class="contact-section bg-white">
+        <section class="contact-section ">
 
         </section>
     </main>

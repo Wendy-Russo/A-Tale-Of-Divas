@@ -2,6 +2,9 @@ body *{
     max-width: 100vw;
 
 }
+.bg-beige{
+    background-color: #f9ba84;
+}
 .title-section{
     height: 75vh;
 }
@@ -14,10 +17,10 @@ body *{
     z-index: 1;
 }
 .characters-section img{
-    height: 350px;
+    height: 400px;
 }
 .characters-section figure{
-    width: 350px;
+    width: 400px;
 }
 .description-section{
     scroll-margin-top: 20rem;
@@ -26,5 +29,13 @@ body *{
     scroll-margin-top: 10rem;
 }
 .title-section-logo {
-    min-width: 234px;
+    min-width: 500px;
+}
+.bg-body{
+    background-image:url("../assets/logo-fond-line-colo.png") ;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: contain;
+    background-attachment: fixed;
+    background-blend-mode: normal;
 }
